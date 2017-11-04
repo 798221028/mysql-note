@@ -15,4 +15,8 @@ MySQL zip 包安装
 
 6、执行 mysqld install
 
-7、执行 net start mysql 即可成功启动 mysql
+7、如删除服务：mysqld remove
+
+8、执行 net start mysql 即可成功启动 mysql
+
+9、停止 mysql：net stop mysql
