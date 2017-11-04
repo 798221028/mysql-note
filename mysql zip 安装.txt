@@ -1,0 +1,18 @@
+
+MySQL zip 包安装
+
+1.在MySQL官网上（http://dev.mysql.com/downloads/mysql/）下载免安装版的zip文件（本文以mysql-5.7.14-winx64.zip为例）
+
+2.将zip文件解压到本地，本文解压到如下目录：D:\softwares\mysql-5.7.14-winx64
+
+3.新建一个配置文件（my.ini）用于配置字符集、端口等信息，用以覆盖原始的配置文件（my-default.ini），当然也可以修改这个默认的配置文件。新建文件夹data存放MySQL数据。
+
+注意：
+	windows 下 basedir=D:\\softwares\\mysql-5.7.14-winx64
+         	   datadir=D:\\softwares\\mysql-5.7.14-winx64\\data 应该用双 \\
+
+5. 输入cmd，以管理员身份运行控制台，进入MySQL路径（D:\softwares\mysql-5.7.14-winx64\bin）下，运行mysqld --initialize命令。注意：这里需要以管理员身份运行
+
+6、执行 mysqld install
+
+7、执行 net start mysql 即可成功启动 mysql
